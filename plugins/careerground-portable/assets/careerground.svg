@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="CareerGround">
+  <rect width="512" height="512" rx="112" fill="#173b3c"/>
+  <path d="M326 143a137 137 0 1 0 0 226" fill="none" stroke="#f5efe0" stroke-width="42" stroke-linecap="round"/>
+  <path d="M250 306h54v-58h54v-59h54" fill="none" stroke="#b8e477" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "careerground-portable",
+  "version": "0.3.0",
+  "description": "Free, file-based career review, resumes, interview preparation, text mock interviews and reflection; optional native ChatGPT voice, no CareerGround server.",
+  "author": {
+    "name": "CareerGround"
+  },
+  "repository": "https://github.com/inhoinno86-hub/careerground-portable",
+  "keywords": [
+    "career",
+    "resume",
+    "interview"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "CareerGround Portable",
+        "shortDescription": "경력·이력서부터 면접 준비와 모의 면접·복습까지 함께합니다.",
+        "defaultPrompt": [
+          "CareerGround 시작 방법을 알려줘.",
+          "이력서와 JD로 면접 질문을 준비해줘.",
+          "파일 없이 텍스트 모의 면접을 시작해줘."
+        ],
+        "developerName": "CareerGround",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/inhoinno86-hub/careerground-portable",
+        "supportURL": "https://github.com/inhoinno86-hub/careerground-portable/issues",
+        "privacyPolicyURL": "https://github.com/inhoinno86-hub/careerground-portable/blob/main/PRIVACY.md",
+        "logo": "./assets/careerground.svg",
+        "composerIcon": "./assets/careerground.svg"
+      }
+    }
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/inhoinno86-hub/careerground-portable"
+}

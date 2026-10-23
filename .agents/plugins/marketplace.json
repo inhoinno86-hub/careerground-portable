@@ -1,0 +1,17 @@
+{
+  "name": "careerground",
+  "plugins": [
+    {
+      "name": "careerground-portable",
+      "source": {
+        "source": "local",
+        "path": "./plugins/careerground-portable"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
